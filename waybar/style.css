@@ -296,7 +296,8 @@ tooltip label {
 }
 
 #battery.warning:not(.charging) {
-    animation: blink 1s linear infinite alternate;
+    animation: blink 2s step-start infinite alternate;
+
 }
 #battery.critical:not(.charging) {
     animation: blink 0.5s linear infinite alternate;

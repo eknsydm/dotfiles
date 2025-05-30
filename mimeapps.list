@@ -1,0 +1,5 @@
+[Added Associations]
+application/octet-stream=Aseprite.desktop;
+
+[Default Applications]
+application/octet-stream=Aseprite.desktop;

@@ -66,7 +66,7 @@
     "custom/power": {
       "format": "",
       "tooltip": false,
-      "on-click": "bash ~/.config/waybar/scripts/shutdown/main.sh"
+      "on-click": "shutdown"
     },
     "group/performance": {
       "orientation": "inherit",
@@ -310,7 +310,7 @@
           "interval": 10,
           "states": {
             "good": 100,
-            "warning": 30,
+            "warning": 20,
             "critical": 10
           },
           "format": "{icon} {capacity}%",
